@@ -1,0 +1,21 @@
+.Home {
+  height: 100vh;
+}
+
+.title {
+  font-size: 2rem;
+  text-align: center;
+  color: #f2f2f2;
+  background: rgba(34, 34, 34, 0.9);
+  margin: 0 !important;
+  height: 80px;
+  line-height: 80px;
+  text-transform: uppercase;
+}
+
+.cards {
+  padding-top: 2rem;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}

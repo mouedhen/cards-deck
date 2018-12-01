@@ -1,0 +1,33 @@
+.PickedCard {
+  height: 450px;
+  text-align: center;
+}
+
+.no-card {
+  position: absolute;
+  background: rgba(28, 28, 28, 0.82);
+  height: 380px;
+  width: 264px;
+  color: #f2f2f2;
+  left: 50%;
+  transform: translateX(-50%);
+
+  h2 {
+    margin-top: 150px;
+  }
+}
+
+.picked-card {
+  img {
+    height: 350px;
+    padding: 12px;
+  }
+
+  .card-name {
+    background: #cccccc;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 12px;
+  }
+}

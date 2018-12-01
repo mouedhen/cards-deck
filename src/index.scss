@@ -1,0 +1,19 @@
+@import "~normalize.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+html {
+  background: url("/assets/img/poker-table-background.jpg") no-repeat fixed;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+  background: #f2f2f2;
+}

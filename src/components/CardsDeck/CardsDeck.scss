@@ -1,0 +1,35 @@
+.CardsDeck {
+  min-height: 300px;
+  width: 280px;
+  float: right;
+  position: absolute;
+  bottom: 1rem;
+  right: 2rem;
+}
+
+.deck {
+  position: relative;
+}
+
+.card {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  border: solid .5px #cccccc;
+}
+
+.empty-deck {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(36, 1, 12, 0.91);
+  height: 250px;
+  width: 175px;
+  text-align: center;
+  color: #f2f2f2;
+  h3 {
+    padding-top: 100px;
+  }
+}
